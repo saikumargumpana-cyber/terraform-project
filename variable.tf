@@ -28,4 +28,8 @@ variable "instance_tags" {
   }
 
 }
+variable "prevent_destroy_ec2" {
+  type    = bool
+  default = false
+}
 
