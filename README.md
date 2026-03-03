@@ -56,9 +56,7 @@ terraform apply
 
 ---
 
-## 👨‍💻 Author
-Saikumar  
-DevOps & Cloud Enthusiast
+
 ## Terraform Workspaces
 
 This project uses Terraform workspaces to manage multiple environments:
@@ -74,3 +72,7 @@ terraform workspace new dev
 terraform workspace new prod
 terraform workspace select dev
 terraform workspace select prod
+# 👨‍💻 Author
+Saikumar  
+DevOps & Cloud Enthusiast
+       $$THANK YOU4$$
