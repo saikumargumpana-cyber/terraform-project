@@ -1,0 +1,61 @@
+# Terraform AWS Infrastructure Project
+
+## 📌 Project Overview
+This project provisions AWS infrastructure using Terraform.
+
+It demonstrates Infrastructure as Code (IaC) concepts by creating and managing cloud resources in a structured and automated way.
+
+---
+
+## 🛠 Technologies Used
+- Terraform
+- AWS
+- Git & GitHub
+
+---
+
+## 📂 Project Structure
+
+```
+├── main.tf
+├── variable.tf
+├── README.md
+└── .gitignore
+```
+
+---
+
+## 🚀 How to Use
+
+### 1️⃣ Initialize Terraform
+```
+terraform init
+```
+
+### 2️⃣ Validate Configuration
+```
+terraform validate
+```
+
+### 3️⃣ Plan Infrastructure
+```
+terraform plan
+```
+
+### 4️⃣ Apply Changes
+```
+terraform apply
+```
+
+---
+
+## 🔒 Important Notes
+- `.terraform/` folder is ignored
+- `terraform.tfstate` files are not pushed to GitHub
+- Always review plan before apply
+
+---
+
+## 👨‍💻 Author
+Saikumar  
+DevOps & Cloud Enthusiast
