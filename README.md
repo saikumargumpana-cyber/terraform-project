@@ -59,3 +59,18 @@ terraform apply
 ## 👨‍💻 Author
 Saikumar  
 DevOps & Cloud Enthusiast
+## Terraform Workspaces
+
+This project uses Terraform workspaces to manage multiple environments:
+
+- dev
+- prod
+
+Instance type changes dynamically based on the selected workspace.
+
+Commands used:
+
+terraform workspace new dev
+terraform workspace new prod
+terraform workspace select dev
+terraform workspace select prod
