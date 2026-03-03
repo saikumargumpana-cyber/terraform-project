@@ -80,6 +80,21 @@ in s3 bucket versioning should be enabled!
 and create a file as backend.tf in our terraform project
 then install and plan the terraform
 check the statelist
+## Overview
+This Terraform project provisions AWS infrastructure including:
+
+- **VPC** (Virtual Private Cloud)  
+- **EC2 Instances** (Web servers)  
+- **Tags** for environment identification  
+- **Meta-arguments** for lifecycle management and dependencies  
+- **Outputs** for instance IDs and public IPs  
+
+This project demonstrates how to use Terraform features like `count`, `depends_on`, `lifecycle`, and outputs to manage resources safely.
+
+---
+
+## Project Structure
+
 # 👨‍💻 Author
 Saikumar  
 DevOps & Cloud Enthusiast
