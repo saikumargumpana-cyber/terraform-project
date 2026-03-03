@@ -72,9 +72,14 @@ terraform workspace new dev
 terraform workspace new prod
 terraform workspace select dev
 terraform workspace select prod
-Configured remote backend with S3 and DynamoDB locking
-with Amazon Web Service{AWS}
-
+## Configured remote backend with S3 and DynamoDB locking
+# with Amazon Web Service{AWS}
+create S3 bucket with a unique name
+and same as of dynamodb table also
+in s3 bucket versioning should be enabled!
+and create a file as backend.tf in our terraform project
+then install and plan the terraform
+check the statelist
 # 👨‍💻 Author
 Saikumar  
 DevOps & Cloud Enthusiast
