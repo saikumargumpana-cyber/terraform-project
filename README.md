@@ -72,6 +72,9 @@ terraform workspace new dev
 terraform workspace new prod
 terraform workspace select dev
 terraform workspace select prod
+Configured remote backend with S3 and DynamoDB locking
+with Amazon Web Service{AWS}
+
 # 👨‍💻 Author
 Saikumar  
 DevOps & Cloud Enthusiast
